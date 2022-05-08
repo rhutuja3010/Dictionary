@@ -9,8 +9,9 @@
 # 4     40      4                                                                                               
 # 5     50      5                                                                                               
 # 6     60      6
-
+count=0
 dic={1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 print("key"  , "value", "count")
 for i in dic:
-    print(i, "  ",    " " ,dic[i] ,"  "     ,   i)
+    count+=1
+    print(i, "  ",    " " ,dic[i] ,"  "     ,   count)
